@@ -1,0 +1,21 @@
+{
+  "name": "gulp-build",
+  "version": "0.0.1",
+  "description": "The build process of my website with Gulp.js",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.6.5",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-uglify": "^1.2.0",
+    "require-dir": "^0.3.0"
+  }
+}
