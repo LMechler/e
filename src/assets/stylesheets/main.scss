@@ -1,0 +1,11 @@
+@import 'base/colors';
+@import 'base/mixins';
+
+.test {
+	background-color: $color-01-light;
+}
+.test2 {
+	@include gradient-color-01;
+	width: 500px;
+	height: 500px;
+}

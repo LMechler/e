@@ -1,0 +1,3 @@
+@mixin gradient-color-01 {
+	background-image:	linear-gradient(to bottom, $color-01-light, $color-01-dark); //firefox, autoprefixer: "to bottom" statt "top"
+}
