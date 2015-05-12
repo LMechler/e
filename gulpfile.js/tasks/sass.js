@@ -10,7 +10,7 @@ var config = require('../config/sass');
 
 
 gulp.task('sass', function () {
-    return sass('src/assets/stylesheets/main.scss') 
+    return sass('src/assets/stylesheets/_master.scss') 
     .on('error', function (err) {
       console.error('Error!', err.message);
    })

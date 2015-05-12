@@ -1,0 +1,10 @@
+test = {
+	"test" : {
+		"de" : "Das ist ein Test",
+		"en" : "This is a test",
+		"fr" : "3ter Test - ich spreche kein französisch!!!"
+	},
+	"service_1_tip" : {
+		"de" : "<dfn>möebe</dfn>lando Kunden profitieren von kostenlosem Versand - und zwar deutschlandweit. Wir liefern deine Möbel direkt zu dir nach Hause! Dabei ist es egal ob du einen oder mehrere Artikel bestellst, egal ob der Artikel per Paketdienst oder per Spedition versandt wird."
+	}
+}
