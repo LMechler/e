@@ -1,10 +1,83 @@
-test = {
+lang = {
 	"test" : {
 		"de" : "Das ist ein Test",
-		"en" : "This is a test",
-		"fr" : "3ter Test - ich spreche kein französisch!!!"
+		"en" : "This is a test"
 	},
-	"service_1_tip" : {
-		"de" : "<dfn>möebe</dfn>lando Kunden profitieren von kostenlosem Versand - und zwar deutschlandweit. Wir liefern deine Möbel direkt zu dir nach Hause! Dabei ist es egal ob du einen oder mehrere Artikel bestellst, egal ob der Artikel per Paketdienst oder per Spedition versandt wird."
-	}
+
+/*  ===========================================
+	Aufteilung der Sprachvariablen nach Modulen
+	=========================================== */
+
+/*	==============
+	mainnavigation
+	============== */
+
+	"nav" : {
+
+		"categories" : {
+			"header" : {
+				"de" : "Kategorien",
+				"en" : "Categories"
+			},
+		},
+		
+		"search" : {
+			"placeholder" : {
+				"de" : "Suchen nach...",
+				"en" : "search for..."
+			},
+			"button" : {
+				"de" : "Finden",
+				"en" : "Find"
+			},
+		},
+
+		"service" : {
+			"header" : {
+				"de" : "Service-Center",
+				"en" : "Service"
+			},
+		},
+	},
+
+/*	========
+	Benefits
+	======== */
+
+	"benefits" : {
+		"first" : {
+			"title" : {
+				"de" : "Kostenlose Lieferung",
+				"en" : "free shipping"
+			},
+			"content" : {
+				"de" : "<dfn>möebe</dfn>lando Kunden profitieren von kostenlosem Versand - und zwar deutschlandweit. Wir liefern deine Möbel direkt zu dir nach Hause! Dabei ist es egal ob du einen oder mehrere Artikel bestellst, egal ob der Artikel per Paketdienst oder per Spedition versandt wird.",
+				"en" : "blablabla auf englisch"
+			},
+		},
+		"second" : {
+			"title" : {
+				"de" : "30 Tage Geld-zurück-Garantie",
+				"en" : "30 days money-back-warranty"
+			},
+			"content" : {
+				"de" : "Geld zurück? Bei <dfn>möebe</dfn>lando kein Problem! Unsere 30 Tage Geld-zurück-Garantie: Wir räumen dir als Verbraucher nach Ablauf des dir gesetzlich zustehenden Widerrufsrechts von 1 Monat die Möglichkeit ein, weitere 30 Tage von unserer Geld-zurück-Garantie Gebrauch zu machen.",
+				"en" : "blablabla auf englisch"
+			},
+		},
+		"third" : {
+			"title" : {
+				"de" : "Tiefpreis-Garantie",
+				"en" : "lowest-price-warranty"
+			},
+			"content" : {
+				"de" : "Wir halten mit - garantiert! Profitiere von unserer Tiefpreisgarantie: Wir bieten dir garanteirt immer den tiefsten Preis und erstatten den Differenzbetrag zum Preis der Konkurrenz!",
+				"en" : "blablabla auf englisch"
+			},
+		},
+	},
 }
+
+
+
+	
