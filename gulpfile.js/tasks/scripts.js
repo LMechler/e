@@ -9,7 +9,7 @@ gulp.task('scripts', function() {
   return gulp.src(config.src)
 //    .pipe(jshint())
 //    .pipe(jshint.reporter('default'))
-    .pipe(concat('main.js'))
+    .pipe(concat('master.js'))
     .pipe(gulp.dest(config.dest))
     .pipe(rename(config.rename))
     .pipe(uglify())
